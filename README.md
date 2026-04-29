@@ -1,32 +1,23 @@
-# Data Analysis & Machine Learning Projects
+# data science projects
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626.svg)](https://jupyter.org)
 [![Scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)](https://scikit-learn.org)
 
-A collection of data analysis and machine learning projects covering regression, NLP, and predictive modeling.
+a few notebooks where I worked through different ML and data problems. nothing fancy — just real datasets and trying to learn something from them.
 
-## Projects
+## what's here
 
-### 🚗 Linear Regression on Vehicle Dataset
-Predictive modeling using linear regression to analyze relationships between vehicle features and pricing.
+### 🚗 linear regression on vehicle data
+trying to predict car prices from features. standard regression workflow: explore, clean, engineer a few features, train, evaluate. good practice for when the data isn't already perfect.
 
-- **Techniques:** Linear regression, feature engineering, data visualization
-- **Libraries:** pandas, numpy, matplotlib, scikit-learn
+### 📝 semantic text analysis
+playing around with NLP — sentiment scoring, pulling out keywords, seeing if you can cluster text by meaning. NLTK, some pandas, lots of trial and error.
 
-### 📝 Semantic Text Analysis
-NLP pipeline for extracting meaning from unstructured text — sentiment analysis, keyword extraction, and topic modeling.
+### 📊 suicide rate prediction
+this one was heavier. looked at global suicide rate data across countries and years, tried to find patterns in demographics and economic indicators. mostly exploratory, with some regression at the end.
 
-- **Techniques:** Natural language processing, text preprocessing, sentiment scoring
-- **Libraries:** NLTK, pandas, numpy
-
-### 📊 Suicide Rate Prediction
-Exploratory analysis and predictive modeling of global suicide rate trends using demographic and socioeconomic indicators.
-
-- **Techniques:** Data cleaning, exploratory data analysis, regression
-- **Libraries:** pandas, matplotlib, seaborn, scikit-learn
-
-## Setup
+## run it
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn nltk jupyter
@@ -35,4 +26,4 @@ jupyter notebook
 
 ---
 
-*Collection of applied data science projects exploring real-world datasets.*
+*collection of learning projects — not polished products, but honest work*
